@@ -1,0 +1,17 @@
+Student Name: Hengshuo Zhang
+Student ID#: 862395234
+UCR Net ID: hzhan402
+
+
+Assume you perform a histogram operation on an array of size N, 16 blocks, block size of B and 1024 bins. Assume a privatized histogram implementation.
+
+- How many global memory reads are performed during the histogram kernel?
+N + 16 x 1024
+
+
+= How many global memory writes are performed during the histogram kernel?
+16 x 1024 = 16384
+
+
+- How many total atomic operations are performed?
+N + 16 x 1024
